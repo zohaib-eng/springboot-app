@@ -39,6 +39,8 @@ public class ClientServiceImpl implements IClientService {
         c.setPassword(hashPassword);
 
         clientRepo.save(c);
+
+        System.out.println("hello");
     }
 
 
